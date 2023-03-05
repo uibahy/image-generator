@@ -1,5 +1,4 @@
 import React from 'react'
-import logoIg from 'assert'
 import '../components/Navbar.css'
 
 function Navbar() {

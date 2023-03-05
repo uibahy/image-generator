@@ -4,6 +4,7 @@ import { Configuration, OpenAIApi } from 'openai'
 import 'react-loading-skeleton/dist/skeleton.css'
 import ContentLoader from "react-content-loader"
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 const configuration = new Configuration({
   apiKey: import.meta.env.VITE_API_KEY
@@ -62,6 +63,7 @@ function App() {
           {isLoading ? <>{loading}</> : <img src={image} alt="" />}
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }

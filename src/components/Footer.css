@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 20px 4px;
+    border-top: 1px solid #1A1A1A;
+    margin-top: 64px;
+}
+
+p{
+    font-size: 14px;
+    color: hsla(0, 0%, 55%, 1);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    height: 40%;
+}
+
+.icons div{
+    border-left: 1px solid #383838;
+
+}

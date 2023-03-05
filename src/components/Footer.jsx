@@ -1,12 +1,14 @@
 import React from 'react'
-import '../components/Navbar.css'
+import '../components/Footer.css'
 
 function Footer() {
     return (
-        <div>
-            <div className='footer'>
-                <img src="src/assets/logoIG.svg" alt="" />
-                <button><img src="src/assets/github.svg" alt="" />Start on Github</button>
+        <div className='footer'>
+            <p>Crafted by the talented designer <a href="">bahy</a>, and flawlessly deployed by <a href="">Vercel</a>.</p>
+            <div className="icons">
+                <a href=""><img src="src/assets/githubf.svg" alt="" /></a>
+                <div></div>
+                <a href=""><img src="src/assets/twitter.svg" alt="" /></a>
             </div>
         </div>
     )

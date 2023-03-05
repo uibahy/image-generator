@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 24px 4px;
+    border-bottom: 1px solid #1A1A1A;
+    margin-bottom: 44px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 12px;
+    background: #1A1A1A;
+    border: 1px solid #272727;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.25s;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+button:hover {
+    background-color: #242424;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}

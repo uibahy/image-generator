@@ -1,10 +1,9 @@
 import { useState } from 'react'
 import './App.css'
-import axios from 'axios'
 import { Configuration, OpenAIApi } from 'openai'
-import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import ContentLoader from "react-content-loader"
+import Navbar from './components/Navbar'
 
 const configuration = new Configuration({
   apiKey: import.meta.env.VITE_API_KEY
@@ -49,6 +48,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <div className='container'>
         <div className="header">
           <h1>Image Generator</h1>

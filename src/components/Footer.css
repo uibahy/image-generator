@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     width: 85%;
     padding: 20px 4px;
     border-top: 1px solid #1A1A1A;
@@ -29,5 +30,5 @@ a{
 
 .icons div{
     border-left: 1px solid #383838;
-
+    height: 20px;
 }

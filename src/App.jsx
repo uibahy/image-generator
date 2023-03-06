@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import { Configuration, OpenAIApi } from 'openai'
 import 'react-loading-skeleton/dist/skeleton.css'
 import ContentLoader from "react-content-loader"

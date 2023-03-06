@@ -1,3 +1,5 @@
-# image-generator
+[![](https://media.discordapp.net/attachments/766626153267855361/1082283402096541808/metagif.png?width=1984&height=820)](https://ai.bahy.design/)
 
-[![](https://media.discordapp.net/attachments/766626153267855361/1082282149404758126/metaback.png?width=1984&height=794)](https://media.discordapp.net/attachments/766626153267855361/1082282149404758126/metaback.png?width=1984&height=794http://)
+## Image Generator
+
+**Transform words into visuals with AI image generator. Effortlessly create custom images based on your descriptions.**

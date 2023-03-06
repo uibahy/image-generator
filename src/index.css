@@ -3,23 +3,19 @@ body {
   align-items: center;
   min-height: 100vh;
 }
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #0D0D0D;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
 .App{
   display: flex;
   flex-direction: column;
@@ -29,12 +25,10 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 h1 {
   font-size: 46px;
   line-height: 1.1;
 }
-
 .inputs button {
   border-radius: 4px;
   border: 1px solid transparent;
@@ -54,7 +48,6 @@ h1 {
 .inputs button:focus-visible {
   outline: 4px auto #e7e7e7;
 }
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -67,7 +60,6 @@ h1 {
     background-color: #f9f9f9;
   }
 }
-
 input{
   width: 100%;
   border-radius: 4px;
@@ -90,17 +82,14 @@ input:focus-visible {
   outline: 1px auto #4c4c4c;
   background-color: #222222;
 }
-
 .image img{
   border-radius: 16px;
   border: 4px solid #424242;
 }
-
 .loading{
   border-radius: 20px;
   border: 4px solid #42424225;
 }
-
 .header{
   display: flex;
   flex-direction: column;
@@ -108,16 +97,13 @@ input:focus-visible {
   width: 70%;
   gap: 4px;
 }
-
 .header h1{
   color: linear-gradient(179.35deg, #FFFFFF 0.56%, rgba(255, 255, 255, 0) 368.86%);;
   margin: 0px;
 }
-
 .header p{
   max-width: 100%;
 }
-
 .inputs{
   display: flex;
   flex-direction: row;
@@ -125,7 +111,6 @@ input:focus-visible {
   gap: 8px;
   width: 60%;
 }
-
 .container{
   display: flex;
   flex-direction: column;
@@ -133,16 +118,13 @@ input:focus-visible {
   max-width: 100%;
   gap: 16px;
 }
-
 @media screen and (max-width: 480px) {
   .header{
     width: 88%;
   }
-
   .header h1 {
     font-size: 40px;
   }
-
   .header p {
     font-size: 14px;
   }

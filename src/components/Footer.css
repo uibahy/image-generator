@@ -9,27 +9,23 @@
     border-top: 1px solid #1A1A1A;
     margin-top: 64px;
 }
-
 .footer p{
     font-size: 14px;
     color: hsla(0, 0%, 55%, 1);
     width: 70%;
     text-align: left;
 }
-
 a{
     text-decoration: none;
     color: white;
     font-weight: 600;
 }
-
 .icons{
     display: flex;
     flex-direction: row;
     gap: 12px;
     height: 40%;
 }
-
 .icons div{
     border-left: 1px solid #383838;
     height: 20px;

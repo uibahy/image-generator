@@ -8,7 +8,6 @@
     border-bottom: 1px solid #1A1A1A;
     margin-bottom: 44px;
 }
-
 .navbar a {
     display: flex;
     flex-direction: row;
@@ -24,16 +23,13 @@
     font-weight: 600;
     font-family: inherit;
 }
-
 .navbar a:hover {
     background-color: #242424;
 }
-
 .navbar a:focus,
 .navbar a:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
-
 @media screen and (max-width: 45s0px){
     .navbar {
         display: flex;

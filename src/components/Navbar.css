@@ -30,7 +30,7 @@
 .navbar a:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
-@media screen and (max-width: 45s0px){
+@media screen and (max-width: 650px){
     .navbar {
         display: flex;
         flex-direction: row;

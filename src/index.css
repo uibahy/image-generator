@@ -46,27 +46,15 @@ h1 {
 }
 .inputs button:focus,
 .inputs button:focus-visible {
-  outline: 4px auto #e7e7e7;
+  outline: none;
 }
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+
 input{
   width: 100%;
   border-radius: 4px;
   border: 1px solid transparent;
   padding: 14px 12px;
   font-size: 1em;
-  font-weight: 500;
   font-family: inherit;
   background-color: #1A1A1A;
   border-radius: 4px;
@@ -78,9 +66,12 @@ input:hover {
 }
 input:focus,
 input:focus-visible {
-  border: none;
-  outline: 1px auto #4c4c4c;
+  border: 1px solid transparent;
+  outline: none;
   background-color: #222222;
+}
+.image {
+  margin-top: 32px;
 }
 .image img{
   border-radius: 16px;
@@ -118,7 +109,7 @@ input:focus-visible {
   max-width: 100%;
   gap: 16px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
   .header{
     width: 88%;
   }
@@ -128,8 +119,11 @@ input:focus-visible {
   .header p {
     font-size: 14px;
   }
-
   .inputs{
     width: 75%;
+    flex-wrap: wrap;
+  }
+  .inputs button{
+    width: 100%;
   }
 }

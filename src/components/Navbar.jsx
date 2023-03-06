@@ -1,11 +1,13 @@
 import React from 'react'
 import '../components/Navbar.css'
+import github from '../assets/github.svg'
+import logoIG from '../assets/logoIG.svg'
 
 function Navbar() {
     return (
         <div className='navbar'>
-            <img src="src/assets/logoIG.svg" alt="" />
-            <button><img src="src/assets/github.svg" alt="" />Start on Github</button>
+            <img src={logoIG} alt="" />
+            <button><img src={github} alt="" />Start on Github</button>
         </div>
     )
 }

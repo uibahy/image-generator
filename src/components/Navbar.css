@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 85%;
     padding: 20px 4px;
     border-bottom: 1px solid #1A1A1A;
@@ -31,4 +32,18 @@ button:hover {
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media screen and (max-width: 450px){
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 85%;
+        padding: 20px 4px;
+        border-bottom: 1px solid #1A1A1A;
+        margin-bottom: 44px;
+    }
 }

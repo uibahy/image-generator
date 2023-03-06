@@ -10,9 +10,11 @@
     margin-top: 64px;
 }
 
-p{
+.footer p{
     font-size: 14px;
     color: hsla(0, 0%, 55%, 1);
+    width: 70%;
+    text-align: left;
 }
 
 a{
@@ -32,3 +34,9 @@ a{
     border-left: 1px solid #383838;
     height: 20px;
 }
+
+/* @media screen and (max-width: 400px){
+    .footer{
+        background-color: red;
+    }
+} */

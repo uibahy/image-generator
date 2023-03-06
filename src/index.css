@@ -128,3 +128,21 @@ input:focus-visible {
   max-width: 100%;
   gap: 16px;
 }
+
+@media screen and (max-width: 480px) {
+  .header{
+    width: 88%;
+  }
+
+  .header h1 {
+    font-size: 40px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .inputs{
+    width: 75%;
+  }
+}

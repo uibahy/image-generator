@@ -5,6 +5,8 @@ import 'react-loading-skeleton/dist/skeleton.css'
 import ContentLoader from "react-content-loader"
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const configuration = new Configuration({
   apiKey: import.meta.env.VITE_API_KEY
@@ -12,8 +14,8 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration)
 
 function App() {
-  const [prompt, setPrompt] = useState('')
-  const [image, setImage] = useState('')
+  const [prompt, setPrompt] = useState('cat')
+  const [image, setImage] = useState('src/assets/aia.png')
   const [isLoading, setIsloading] = useState(false)
 
   const loading = <ContentLoader
@@ -56,11 +58,22 @@ function App() {
           <p>Transform words into visuals with AI image generator. Effortlessly create custom images based on your descriptions.</p>
         </div>
         <div className="inputs">
-          <input placeholder='Hmm?' type="text" onChange={(e) => setPrompt(e.target.value)} />
+          <input placeholder='Grey Cat with Cyan Eyes' type="text" onChange={(e) => setPrompt(e.target.value)} />
           <button onClick={fetchData}>Generate</button>
         </div>
         <div className="image">
-          {isLoading ? <>{loading}</> : <img src={image} alt="" />}
+          {/* <LazyLoadImage
+            height={256}
+            src={image} // use normal <img> attributes as props
+            width={256}
+            effect="blur"
+          /> */}
+          {isLoading ? <>{loading}</> : <LazyLoadImage
+            height={256}
+            src={image} // use normal <img> attributes as props
+            width={256}
+            effect="blur"
+          />}
         </div>
       </div>
       <Footer/>

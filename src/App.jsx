@@ -26,6 +26,7 @@ function App() {
     viewBox="0 0 256 256"
     backgroundColor="#171717"
     foregroundColor="#1f1f1f"
+    className='loading'
   >
     <rect x="0" y="0" rx="16" ry="16" width="256" height="256" />
   </ContentLoader>

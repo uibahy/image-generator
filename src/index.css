@@ -52,7 +52,7 @@ h1 {
 }
 .inputs button:focus,
 .inputs button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 4px auto #e7e7e7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -87,13 +87,18 @@ input:hover {
 input:focus,
 input:focus-visible {
   border: none;
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 1px auto #4c4c4c;
   background-color: #222222;
 }
 
 .image img{
   border-radius: 16px;
   border: 4px solid #424242;
+}
+
+.loading{
+  border-radius: 20px;
+  border: 4px solid #42424225;
 }
 
 .header{

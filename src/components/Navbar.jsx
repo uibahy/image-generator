@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <div className='navbar'>
             <img src={logoIG} alt="" />
-            <button><img src={github} alt="" />Start on Github</button>
+            <a target={'_blank'} href="https://github.com/uibahy/image-generator"><img src={github} alt="" />Start on Github</a>
         </div>
     )
 }

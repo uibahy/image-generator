@@ -9,7 +9,7 @@
     margin-bottom: 44px;
 }
 
-button {
+.navbar a {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -25,16 +25,16 @@ button {
     font-family: inherit;
 }
 
-button:hover {
+.navbar a:hover {
     background-color: #242424;
 }
 
-button:focus,
-button:focus-visible {
+.navbar a:focus,
+.navbar a:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 45s0px){
     .navbar {
         display: flex;
         flex-direction: row;

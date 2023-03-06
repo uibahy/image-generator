@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import aia from './assets/aia.png'
 
 const configuration = new Configuration({
   apiKey: import.meta.env.VITE_API_KEY
@@ -15,7 +16,7 @@ const openai = new OpenAIApi(configuration)
 
 function App() {
   const [prompt, setPrompt] = useState('cat')
-  const [image, setImage] = useState('src/assets/aia.png')
+  const [image, setImage] = useState(aia)
   const [isLoading, setIsloading] = useState(false)
 
   const loading = <ContentLoader

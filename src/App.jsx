@@ -69,6 +69,12 @@ function App() {
             width={256}
             effect="blur"
           /> */}
+                    {/* <LazyLoadImage
+            height={256}
+            src={image} // use normal <img> attributes as props
+            width={256}
+            effect="blur"
+          /> */}
           {isLoading ? <>{loading}</> : <LazyLoadImage
             height={256}
             src={image} // use normal <img> attributes as props

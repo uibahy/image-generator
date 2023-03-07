@@ -25,6 +25,95 @@ body {
   align-items: center;
   height: 100vh;
 }
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 85%;
+  padding: 20px 4px;
+  border-top: 1px solid #1A1A1A;
+  margin-top: 64px;
+}
+.footer p{
+  font-size: 14px;
+  color: hsla(0, 0%, 55%, 1);
+  width: 70%;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  height: 40%;
+}
+.icons div{
+  border-left: 1px solid #383838;
+  height: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 85%;
+  padding: 20px 4px;
+  border-bottom: 1px solid #1A1A1A;
+  margin-bottom: 44px;
+}
+.navbar a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 12px;
+  background: #1A1A1A;
+  border: 1px solid #272727;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.25s;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.navbar a:hover {
+  background-color: #242424;
+}
+.navbar a:focus,
+.navbar a:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+@media screen and (max-width: 650px){
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 85%;
+      padding: 20px 4px;
+      border-bottom: 1px solid #1A1A1A;
+      margin-bottom: 44px;
+  }
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  align-items: center;
+  height: 100vh;
+}
 h1 {
   font-size: 46px;
   line-height: 1.1;

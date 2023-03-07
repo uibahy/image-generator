@@ -65,6 +65,7 @@ export default function Home() {
           content="Transform words into visuals with AI image generator. Effortlessly create custom images based on your descriptions.
 "
         />
+        <meta name="twitter:card" content="summary_large_image"></meta>
         <meta
           property="og:image"
           content="https://media.discordapp.net/attachments/766626153267855361/1082379790234943529/Frame_1052.png?width=1984&height=882"

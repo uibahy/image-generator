@@ -3,7 +3,7 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 import { Configuration, OpenAIApi } from 'openai'
 
 type Data = {
-  image: any
+  image: string | undefined
 }
 
 const configurastion = new Configuration({

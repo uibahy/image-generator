@@ -1,3 +1,5 @@
+[![](https://media.discordapp.net/attachments/766626153267855361/1082379790536945714/Frame_1054.png?width=1984&height=520)](https://ai.bahy.design/)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

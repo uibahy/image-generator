@@ -17,7 +17,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [image, setImage] = useState(aia.src);
-  const [isLoading, setIsloading] = useState(false);
+  const [isLoading, setIsloading] = useState<boolean>(false);
 
   const submit = async () => {
     setIsloading(true);
@@ -32,8 +32,6 @@ export default function Home() {
       .catch(function (err) {
         console.log(err);
       });
-
-    // image;
   };
 
   const loading = (
@@ -87,6 +85,9 @@ export default function Home() {
                 placeholder="Grey Cat with Cyan Eyes"
                 type="text"
                 onChange={(e) => setPrompt(e.target.value)}
+                onKeyDown={(e) => {
+                  e.key === "Enter" ? submit() : null;
+                }}
               />
               <button
                 onClick={() => {

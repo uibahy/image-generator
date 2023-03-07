@@ -34,7 +34,7 @@ body {
   width: 85%;
   padding: 20px 4px;
   border-top: 1px solid #1A1A1A;
-  margin-top: 64px;
+  margin-top: auto;
 }
 .footer p{
   font-size: 14px;

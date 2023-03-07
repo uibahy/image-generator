@@ -11,7 +11,6 @@ import aia from "../public/aia.png";
 import axios from "axios";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "react-loading-skeleton/dist/skeleton.css";
-import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -115,7 +114,6 @@ export default function Home() {
           <Footer />
         </div>
       </main>
-      <Analytics />
     </>
   );
 }

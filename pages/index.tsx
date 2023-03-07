@@ -18,7 +18,6 @@ export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [image, setImage] = useState(aia.src);
   const [isLoading, setIsloading] = useState(false);
-  const [input, setInput] = useState("");
 
   const submit = async () => {
     setIsloading(true);

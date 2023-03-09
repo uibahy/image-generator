@@ -107,7 +107,6 @@ export default function Home() {
                   width={256}
                   effect="blur"
                 />
-                // <Image alt="Github" src={image} width={256} height={256} />
               )}
             </div>
           </div>

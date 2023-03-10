@@ -11,7 +11,7 @@ function Footer() {
       <p>
         Crafted by the holy moly designer{" "}
         <a href="https://github.com/uibahy" target={"_blank"}>
-          bahy
+          Azzoug
         </a>
         , and flawlessly deployed by{" "}
         <a href="https://vercel.com" target={"_blank"}>

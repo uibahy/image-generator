@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="footer">
       <p>
-        Crafted by the holy moly designer{" "}
+        Crafted by{" "}
         <a href="https://github.com/uibahy" target={"_blank"}>
           Azzoug
         </a>
